@@ -1,5 +1,3 @@
-
-
 function getData() {
     fetch('https://jsonplaceholder.typicode.com/posts').then(res => 
     res.json()
@@ -9,9 +7,11 @@ function getData() {
         var li = document.createElement("LI");
         var val = document.createTextNode(json[i].body)
         li.appendChild(val)
+        document.
         document.getElementById("ulist").appendChild(li)
     }
 }
     
 )
 }
+

@@ -6,6 +6,8 @@
 //         console.log(json[i].body)
 //         var li = document.createElement("LI");
 //         var val = document.createTextNode("hello")
+    //  li.setAttributeNode("id", list+i)
+    // document.getElementById(list+i).addEventListener("onhover")
 //         li.appendChild(val)
 //         document.
 //         document.getElementById("ulist").innerHTML = ''
